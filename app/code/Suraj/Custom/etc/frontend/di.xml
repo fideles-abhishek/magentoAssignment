@@ -1,0 +1,10 @@
+<!--
+/**
+ * Copyright © 2020 Suraj Wasnik (suraj.work0126@gmail.com). All rights reserved.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+	<type name="Magento\Checkout\Block\Checkout\LayoutProcessor">
+	    <plugin disabled="false" name="checkout_billing_address_layoutProcessor" sortOrder="110" type="Suraj\Custom\Plugin\Block\Checkout\LayoutProcessor"/>
+	</type>
+</config>

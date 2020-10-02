@@ -1,0 +1,17 @@
+<!--
+/**
+ * Copyright © 2020 Suraj Wasnik (suraj.work0126@gmail.com). All rights reserved.
+ */
+-->
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <columns name="sales_order_columns">
+        <column name="sw_products" class="Suraj\Custom\Ui\Component\Listing\Column\Swproducts">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="filter" xsi:type="string">text</item>
+                    <item name="label" xsi:type="string" translate="true">Product(s)</item>
+                </item>
+            </argument>
+        </column>
+    </columns>
+</listing>
